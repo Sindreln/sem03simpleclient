@@ -5,11 +5,11 @@ import (
 	"net"
 	"os"
 
-	"github.com/Sindreln/is105sem03/mycrypt"
+	"github.com/uia-worker/is105sem03/mycrypt"
 )
 
 func main() {
-	conn, err := net.Dial("tcp", "172.17.0.3:8888")
+	conn, err := net.Dial("tcp", "172.17.0.2:8888")
 	if err != nil {
 		log.Fatal(err)
 	}
